@@ -1,0 +1,11 @@
+--> Server merupakan sebuah sistem yang dapat menyediakan sumber daya berupa data, layanan, atau program untuk disajikan ke komputer
+
+--> Server sendiri lebih merujuk kepada sistem yang dapat membuat perangkat (termasuk komputer) dapat melayani sebuah permintaan dari perangkat lain
+
+--> Berikut beberapa tipe server sesuai dengan layanan yang baik untuk Anda ketahui.
+
+    File Server : melayani penyimpanan dan pendistribusian berkas.
+    Application Server : melayani hosting sebuah program atau aplikasi.
+    DNS Server : mengubah nama domain (contoh: dicoding.com) ke dalam bentuk IP Address (contoh: 75.2.21.170).
+    Web Server : melayani hosting sebuah program atau aplikasi (seperti Application Server) yang dapat diakses oleh client melalui internet maupun intranet.
+    Database Server : melayani penyimpanan dan pendistribusian data terstruktur.

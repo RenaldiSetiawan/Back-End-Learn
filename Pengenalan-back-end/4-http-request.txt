@@ -1,0 +1,17 @@
+->  curl : merupakan perintah untuk menggunakan program cURL pada Terminal atau CMD.
+
+->  -X GET : menetapkan HTTP method/verb yang kita gunakan. GET berarti kita ingin mendapatkan sebuah data.
+
+->  https://........ : merupakan alamat request yang dituju.
+
+->  -i : memberikan informasi detail terhadap response yang diberikan (HTTP response headers).
+
+->  HTTP/1.1 : merupakan HTTP version yang digunakan oleh web server dalam menanggapi permintaan.
+
+->  200 : merupakan status code dari request. Karena status code diawali dengan angka 2, berarti request kita berhasil dilakukan.
+
+->  OK : merupakan pesan teks dari status code, 200 berarti “OK”.
+
+->  Content-Type: application/json; : merupakan tipe konten yang digunakan web server dalam memberikan data. Karena nilainya application/json, itu berarti server menggunakan format json.
+
+->  JSON Data (kode di bagian bawah) : merupakan data yang diberikan oleh web server. Kita bisa melihat web server memberikan informasi kopi yang tersedia beserta harganya menggunakan format JSON.

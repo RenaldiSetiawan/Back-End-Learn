@@ -1,0 +1,30 @@
+REST Web Service
+--> REST atau REpresentational State Transfer adalah salah satu gaya arsitektur yang dapat diadaptasi ketika membangun web service.
+
+--> REST menggunakan pola request-response dalam berinteraksi, artinya ia memanfaatkan protokol HTTP seperti yang sudah kita pelajari di materi sebelumnya. 
+
+REST API
+--> REST dengan sebutan RESTful API. merupakan sebutan untuk web services yang menerapkan arsitektur REST. 
+    REST juga merupakan API (application program interface) karena ia digunakan untuk menjembatani antara sistem yang berbeda (client dan server).
+
+--> API atau Application Program Interface merupakan antarmuka yang menjadi perantara antara sistem aplikasi yang berbeda. 
+    API tak hanya dalam bentuk Web Service, bisa saja berupa SDK (Software Development Kit) ataupun lainnya.
+
+sifat yang menjadi kunci pada REST API.
+--> Client-Server : Server harus bisa merespons permintaan yang dilakukan client, baik itu respons berhasil ataupun gagal. 
+                    Komunikasi client dan server dilakukan melalui protokol HTTP.
+
+--> Stateless : REST API tidak boleh menyimpan keadaan (state) apa pun terkait client. 
+                Seluruh state harus tetap disimpan di client. Artinya, tidak ada session di REST API. 
+                Permintaan yang dilakukan client harus mengandung informasi yang jelas.
+
+--> Cacheable : Agar dapat merespons permintaan dengan cepat, sebaiknya REST API menerapkan prinsip cache. 
+                Sehingga setiap permintaan tidak melulu mengambil dari database.
+
+--> Layered : Ketika REST API server memiliki arsitektur yang kompleks, client seharusnya tidak perlu tahu bagaimana server melayaninya.
+
+ketika membangun REST API kita harus memperhatikan empat poin berikut:
+    --> Format request dan response.
+    --> HTTP Verbs/Methods.
+    --> HTTP Response code.
+    --> URL Design.

@@ -1,0 +1,17 @@
+Menjalankan JavaScript Menggunakan Node.js
+    --> Node.js REPL
+        Node.js memiliki fitur REPL atau Read-Eval-Print Loop. 
+        Sesuai namanya, fitur ini berfungsi untuk membaca kode JavaScript, 
+        mengevaluasi kode tersebut, kemudian mencetak hasil evaluasinya ke console. 
+        Nah, untuk loop, berarti proses tersebut selalu berulang.
+    
+    --> REPL merupakan fitur bawaan dari Node.js. Anda bisa mengaksesnya menggunakan perintah 
+        node pada Terminal
+    
+    --> Tanda > pada Terminal menunjukan Anda sudah masuk ke mode Node REPL. 
+        Sekarang, Anda bisa menuliskan kode JavaScript dan mengeksekusinya dengan menggunakan enter.
+        contoh: console.log('Hello World');
+
+Running JavaScript File using Node.js
+    --> Untuk mengeksekusi kode tersebut, silakan simpan perubahan berkas index.js dan buka kembali Terminal. 
+        Kemudian, tuliskan perintah: node namaFile.js 

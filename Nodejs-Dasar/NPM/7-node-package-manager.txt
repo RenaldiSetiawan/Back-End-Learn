@@ -1,0 +1,27 @@
+--> NPM dapat digunakan untuk memasang atau menghapus third party module (modul pihak ketiga). 
+    Modul yang dipasang melalui NPM akan disimpan pada folder node_modules.
+
+     https://www.npmjs.com/
+
+--> MomentJS merupakan salah satu modul pihak ketiga yang populer untuk mengelola waktu di Node.js. 
+    Untuk memasangnya secara lokal, jalankan perintah berikut pada Terminal di project Node.js
+
+    --> npm install moment
+
+    pacckage yang dipasang secara lokal melalui NPM akan tercatat di dalam berkas package.json, 
+    lebih tepatnya pada objek dependencies.
+
+--> Untuk menghapus modul pihak ketiga, Anda bisa gunakan perintah npm uninstall <package-name>. 
+    Bila Anda ingin menghapus modul moment, maka tuliskan:
+
+    --> npm uninstall moment
+
+--> Untuk menjalankan script, Anda cukup menggunakan perintah npm run <nama-script>.
+
+    <package.json>
+        "scripts": {
+            "start-dev": "NODE_ENV=development node app.js",
+            "start": "NODE_ENV=production node app.js"
+        }
+        
+        --> npm run start-dev

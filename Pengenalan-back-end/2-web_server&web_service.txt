@@ -1,0 +1,4 @@
+Jadi untuk membuat sistem aplikasi setidaknya membutuhkan:
+
+Web Server : Server yang dapat menjalankan program dan dapat diakses melalui internet atau intranet. 
+Web Service : Program yang dijalankan di web server agar kebutuhan bisnis terpenuhi.

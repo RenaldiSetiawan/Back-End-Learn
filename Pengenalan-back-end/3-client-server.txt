@@ -1,0 +1,24 @@
+ Informasi pada request dapat mengandung[2]:
+
+    ->  Request line :  berisikan method/verb seperti 
+                        GET (mengambil data), 
+                        POST (menambahkan/mengirim data), 
+                        PUT (memperbaharui data), 
+                        DELETE (menghapus data); 
+                        path atau alamat yang diminta; dan versi HTTP yang digunakan.
+
+    ->  Header :        memuat informasi yang dilampirkan terkait request seperti format dokumen (contoh application/json, text/html, dsb), kunci akses, dsb.
+
+    ->  Body (opsional) : mengandung data yang dibutuhkan oleh server, bisa dalam bentuk teks, JSON, dll. Body tidak wajib dilampirkan bila server tidak membutuhkan data apapun.
+
+Setiap request yang dilakukan, baik dengan informasi yang sesuai ataupun tidak, akan mendapatkan respons. 
+Respons atau tanggapan yang dikirimkan dari server untuk client juga mengandung informasi. 
+Berikut beberapa informasi yang dilampirkan oleh respons[3]:
+
+    ->  Status line :   berisikan HTTP versi yang digunakan; 
+                        status code berupa tiga digit angka yang menandakan keberhasilan dari permintaan; 
+                        reason phrase atau status text yang merupakan pesan berdasarkan status code dalam bentuk teks sehingga lebih mudah dimengerti.
+
+    ->  Header :        mengandung informasi yang dilampirkan terkait response seperti format dokumen.
+
+    ->  Body (opsional, namun biasanya selalu dilampirkan) : memuat data yang dikirimkan oleh server. Data dapat berupa HTML, JSON, gambar, dsb.

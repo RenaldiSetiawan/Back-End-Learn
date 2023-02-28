@@ -1,0 +1,15 @@
+Node.js Global Object
+--> Pada Node.js Anda bisa melihat apa saja yang termasuk member dari global objek dengan menggunakan kode berikut:
+    --> Coba jalankan pada REPL :   Object.getOwnPropertyNames(global);
+    
+        Berikut adalah daftarnya:
+        --> global : Global namespace. Member apa pun di dalam object ini dapat diakses pada cakupan global.
+        --> process : menyediakan interaksi dengan proses Node.js yang berjalan.
+        --> console : menyediakan berbagai fungsionalitas STDIO.
+        --> setTimeout, clearTimeout, setInterval, clearInterval.
+
+--> Ada juga objek yang merupakan ‘pseudo-globals’ atau objek global semu
+    --> module : digunakan untuk sistem modularisasi pada Node.js.
+    --> __filename : keyword untuk mendapatkan lokasi berkas JavaScript yang dieksekusi. Keyword ini tidak tersedia pada Node.js REPL.
+    --> __dirname : keyword untuk mendapatkan root directory dari berkas JavaScript yang dieksekusi.
+    --> require : digunakan untuk mengimpor module JavaScript.

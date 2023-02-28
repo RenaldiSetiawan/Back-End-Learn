@@ -1,0 +1,16 @@
+{
+  "name": "belajar-back-end",
+  "version": "1.0.0",
+  "description": "Backend-Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Nodejs-Web-Server/1-server.js"
+  },
+  "author": "renal",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
+}

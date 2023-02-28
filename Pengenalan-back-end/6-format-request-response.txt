@@ -1,0 +1,30 @@
+Format Request dan Response
+--> REST API seringnya menggunakan JavaScript Object Notation atau JSON
+
+--> JSON merupakan salah satu format standar dalam transaksi data. Bahkan, 
+    saat ini JSON menjadi format terpopuler mengalahkan pendahulunya yaitu XML.
+
+--> Agar REST API selalu merespons dengan format JSON, 
+    pastikan setiap respons terdapat properti Content-Type dengan nilai application/json.
+
+Data.json
+{
+  "message": "Berikut daftar kopi yang tersedia",
+  "coffees": [
+    {
+      "id": 1,
+      "name": "Kopi Tubruk",
+      "price": 12000
+    },
+    {
+      "id": 2,
+      "name": "Kopi Tarik",
+      "price": 15000
+    },
+    {
+      "id": 3,
+      "name": "Kopi Jawa",
+      "price": 18000
+    }
+  ]
+}
